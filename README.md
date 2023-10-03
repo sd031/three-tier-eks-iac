@@ -52,7 +52,20 @@ For Mac:
 export DOCKER_CLI_EXPERIMENTAL=enabled
 docker buildx create --name mybuilder --use
 docker buildx inspect mybuilder --bootstrap
-docker buildx build --platform linux/amd64 -t your-image-name:tag . 
+docker buildx build --platform linux/amd64 -t backend:v1 . 
 docker buildx rm mybuilder
 
+docker buildx build --platform linux/amd64 -t workshop-frontend:v1 . 
 
+docker tag workshop-frontend:v1 public.ecr.aws/w8u5e4v2/workshop-frontend:v1
+
+docker push public.ecr.aws/w8u5e4v2/workshop-frontend:v1
+
+
+docker buildx build --platform linux/amd64 -t workshop-backend:v1 . 
+
+docker buildx build --platform linux/amd64 -t workshop-backend:v1 . 
+docker tag workshop-backend:v1 public.ecr.aws/w8u5e4v2/workshop-backend:v1
+docker push public.ecr.aws/w8u5e4v2/workshop-backend:v1
+
+docker build -t workshop-backend .

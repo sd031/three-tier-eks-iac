@@ -3,12 +3,14 @@ const mongoose = require("mongoose");
 module.exports = async () => {
     try {
         const connectionParams = {
+            user: process.env.MONGO_USERNAME,
+            pass: process.env.MONGO_PASSWORD,
             useNewUrlParser: true,
             useCreateIndex: true,
             useUnifiedTopology: true,
         };
         await mongoose.connect(
-            "mongodb://localhost:32768/todo-app",
+           process.env.MONGO_CONN_STR,
             connectionParams
         );
         console.log("Connected to database.");
