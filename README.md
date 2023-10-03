@@ -4,7 +4,7 @@
 https://aws.amazon.com/cli/
 
 #update the Kubernetes context
-aws eks update-kubeconfig --name my-eks --region us-west-2
+aws eks update-kubeconfig --name my-eks-cluster --region us-west-2
 
 #verify access:
 
