@@ -32,6 +32,10 @@ kubectl apply -f k8s_manifests/nginx.yaml
 
 kubectl apply -f k8s_manifests/echoserver.yaml
 
+kubectl delete -f k8s_manifests/nginx.yaml
+
+kubectl delete -f k8s_manifests/echoserver.yaml
+
 
 aws eks update-kubeconfig \
   --name my-eks \
@@ -43,28 +47,12 @@ kubectl logs -f -n kube-system \
   -l app.kubernetes.io/name=aws-load-balancer-controller
 
 
-Min LB Permission:
+Buid Docker image :
+For Mac:
+export DOCKER_CLI_EXPERIMENTAL=enabled
+docker buildx create --name mybuilder --use
+docker buildx inspect mybuilder --bootstrap
+docker buildx build --platform linux/amd64 -t your-image-name:tag . 
+docker buildx rm mybuilder
 
-{
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-         "elasticloadbalancing:CreateTargetGroup"
-      ],
-      "Resource": "*"
-    },
-    {
-      "Effect": "Allow",
-      "Action": [
-         "elasticloadbalancing:AddTags"
-      ],
-      "Resource": "*",
-      "Condition": {
-         "StringEquals": {
-             "elasticloadbalancing:CreateAction" : "CreateTargetGroup"
-          }
-       }
-    }
-  ]
-}
+
