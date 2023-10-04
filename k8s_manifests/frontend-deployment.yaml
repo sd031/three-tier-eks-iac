@@ -27,7 +27,7 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
-            value: a74c4a8fb4264401eb2bfa22c54466d6-1813747008.us-west-2.elb.amazonaws.com #$API_ELB_PUBLIC_FQDN #add your API_Load_Balancer DNS manually here if app does not run
+            value: "http://app.sandipdas.in/api/tasks" #$API_ELB_PUBLIC_FQDN #add your API_Load_Balancer DNS manually here if app does not run
         ports:
         - containerPort: 3000
         # livenessProbe:
