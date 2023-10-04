@@ -71,7 +71,10 @@ docker tag workshop-frontend:v1 public.ecr.aws/w8u5e4v2/workshop-frontend:v1
 docker push public.ecr.aws/w8u5e4v2/workshop-frontend:v1
 
 
+aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/w8u5e4v2
+
 docker buildx build --platform linux/amd64 -t workshop-backend:v1 . 
+
 
 docker buildx build --platform linux/amd64 -t workshop-backend:v1 . 
 docker tag workshop-backend:v1 public.ecr.aws/w8u5e4v2/workshop-backend:v1
@@ -247,3 +250,8 @@ Test the full end-to-end cloud native application
 Query the MongoDB database directly to observe the updated vote data. In the terminal execute the following command:
 ```
 kubectl exec -it mongo-0 -- mongo langdb --eval "db.languages.find().pretty()"
+
+
+
+check logs:
+kubectl logs -f mongodb-97778db7-p8pqc
