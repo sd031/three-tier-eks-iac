@@ -26,20 +26,20 @@ spec:
         image: public.ecr.aws/w8u5e4v2/workshop-frontend:v1
         imagePullPolicy: Always
         env:
-          - name: REACT_APP_APIHOSTPORT
-            value: $API_ELB_PUBLIC_FQDN #add your API_Load_Balancer DNS manually here if app does not run
+          - name: REACT_APP_BACKEND_URL
+            value: a74c4a8fb4264401eb2bfa22c54466d6-1813747008.us-west-2.elb.amazonaws.com #$API_ELB_PUBLIC_FQDN #add your API_Load_Balancer DNS manually here if app does not run
         ports:
-        - containerPort: 8080
-        livenessProbe:
-          httpGet:
-            path: /ok
-            port: 8080
-          initialDelaySeconds: 2
-          periodSeconds: 5
-        readinessProbe:
-          httpGet:
-             path: /ok
-             port: 8080
-          initialDelaySeconds: 5
-          periodSeconds: 5
-          successThreshold: 1
+        - containerPort: 3000
+        # livenessProbe:
+        #   httpGet:
+        #     path: /
+        #     port: 3000
+        #   initialDelaySeconds: 2
+        #   periodSeconds: 5
+        # readinessProbe:
+        #   httpGet:
+        #      path: /
+        #      port: 3000
+        #   initialDelaySeconds: 5
+        #   periodSeconds: 5
+        #   successThreshold: 1

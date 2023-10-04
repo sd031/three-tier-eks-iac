@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mongo-volume
+  namespace: workshop
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 50Mi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/mnt/d/SAMI/Projects/data"

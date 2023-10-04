@@ -1,6 +1,6 @@
 import axios from "axios";
-const apiUrl = "http://localhost:8080/api/tasks";
-
+const apiUrl = process.env.REACT_APP_BACKEND_URL //"http://localhost:8080/api/tasks";
+console.log(apiUrl)
 export function getTasks() {
     return axios.get(apiUrl);
 }
