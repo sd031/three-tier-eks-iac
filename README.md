@@ -1,30 +1,46 @@
 # three-tier-eks-iac
 
-#Install/update latest AWS CLI:
+# Prerequisite 
+
+**Install Kubectl**
+https://kubernetes.io/docs/tasks/tools/
+
+
+**Install Helm**
+https://helm.sh/docs/intro/install/
+
+```
+helm repo update
+```
+
+
+
+
+**Install/update latest AWS CLI:** (make sure install v2 only)
 https://aws.amazon.com/cli/
 
 #update the Kubernetes context
 aws eks update-kubeconfig --name my-eks-cluster --region us-west-2
 
-#verify access:
+# verify access:
 ```
 kubectl auth can-i "*" "*"
 kubectl get nodes
 ```
 
-#Verify autoscaler running:
+# Verify autoscaler running:
 ```
 kubectl get pods -n kube-system
 ```
 
-#Check Autoscaler logs
+# Check Autoscaler logs
 ```
 kubectl logs -f \
   -n kube-system \
   -l app=cluster-autoscaler
 ```
 
-#Check load balancer logs
+# Check load balancer logs
 ```
 kubectl logs -f -n kube-system \
   -l app.kubernetes.io/name=aws-load-balancer-controller
@@ -36,15 +52,15 @@ kubectl logs -f -n kube-system \
   --profile eks-admin -->
 
 
-#Buid Docker image :
-For Mac:
+# Buid Docker image :
+**For Mac:**
 
 ```
 export DOCKER_CLI_EXPERIMENTAL=enabled
 aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/w8u5e4v2
 ```
 
-#Buid Front End :
+Buid Front End :
 
 ```
 docker buildx build --platform linux/amd64 -t workshop-frontend:v1 . 
@@ -53,7 +69,7 @@ docker push public.ecr.aws/w8u5e4v2/workshop-frontend:v1
 ```
 
 
-#Buid Back End :
+Buid Back End :
 
 ```
 docker buildx build --platform linux/amd64 -t workshop-backend:v1 . 
@@ -61,20 +77,37 @@ docker tag workshop-backend:v1 public.ecr.aws/w8u5e4v2/workshop-backend:v1
 docker push public.ecr.aws/w8u5e4v2/workshop-backend:v1
 ```
 
+**For Linux/Windows:**
+
+Buid Front End :
+
+```
+docker build -t workshop-frontend:v1 . 
+docker tag workshop-frontend:v1 public.ecr.aws/w8u5e4v2/workshop-frontend:v1
+docker push public.ecr.aws/w8u5e4v2/workshop-frontend:v1
+```
+
+
+Buid Back End :
+
+```
+docker build -t workshop-backend:v1 . 
+docker tag workshop-backend:v1 public.ecr.aws/w8u5e4v2/workshop-backend:v1
+docker push public.ecr.aws/w8u5e4v2/workshop-backend:v1
+```
 
 
 
-
-
-#Create Namespace
+**Create Namespace**
 ```
 kubectl create ns workshop
 
 kubectl config set-context --current --namespace workshop
 ```
-**MONGO Database Setup**
 
-To create MongoDB Resources:
+# MongoDB Database Setup
+
+**To create MongoDB Resources**
 ```
 cd k8s_manifests/mongo_v1
 kubectl apply -f secrets.yaml
@@ -82,7 +115,7 @@ kubectl apply -f deploy.yaml
 kubectl apply -f service.yaml
 ```
 
-**Backend API Setup**
+# Backend API Setup
 
 Create NodeJs API deployment by running the following command:
 ```
@@ -109,7 +142,7 @@ kubectl apply -f full_stack_lb.yaml
 kubectl logs -f POD_ID -f
 
 
-#Grafana setup 
+# Grafana setup 
 Username: admin
 Password: prom-operator
 
