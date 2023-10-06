@@ -13,9 +13,6 @@ https://helm.sh/docs/intro/install/
 helm repo update
 ```
 
-
-
-
 **Install/update latest AWS CLI:** (make sure install v2 only)
 https://aws.amazon.com/cli/
 
