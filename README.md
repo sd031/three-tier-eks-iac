@@ -107,3 +107,12 @@ kubectl apply -f full_stack_lb.yaml
 
 # Any issue with the pods ? check logs:
 kubectl logs -f POD_ID -f
+
+
+#Grafana setup 
+Username: admin
+Password: prom-operator
+
+Import Dashboard ID: 1860
+
+Exlore more at: https://grafana.com/grafana/dashboards/

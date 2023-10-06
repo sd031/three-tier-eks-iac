@@ -21,6 +21,14 @@ spec:
                 port:
                   number: 8080
 
+          - path: /monitoring
+            pathType: Prefix
+            backend:
+              service:
+                name: prometheus-grafana
+                port:
+                  number: 80
+
           - path: /
             pathType: Prefix
             backend:
