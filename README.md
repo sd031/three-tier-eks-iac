@@ -146,3 +146,16 @@ Password: prom-operator
 Import Dashboard ID: 1860
 
 Exlore more at: https://grafana.com/grafana/dashboards/
+
+# Destroy Kubernetes resources and cluster
+```
+cd ./k8s_manifests
+kubectl delete -f -f
+```
+**Remove AWS Resources to stop billing**
+```
+cd terraform
+terraform destroy --auto-approve
+```
+
+
