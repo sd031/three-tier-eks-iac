@@ -118,7 +118,7 @@ Create NodeJs API deployment by running the following command:
 ```
 kubectl apply -f backend-deployment.yaml
 kubectl apply -f backend-service.yaml
-``
+```
 
 
 **Frontend setup**
@@ -136,7 +136,9 @@ kubectl apply -f full_stack_lb.yaml
 
 
 # Any issue with the pods ? check logs:
+```
 kubectl logs -f POD_ID -f
+```
 
 
 # Grafana setup 
