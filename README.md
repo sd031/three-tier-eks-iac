@@ -16,6 +16,11 @@ helm repo update
 **Install/update latest AWS CLI:** (make sure install v2 only)
 https://aws.amazon.com/cli/
 
+**Refer to below Youtube Video Tutorial**
+
+[![YouTube Video](https://img.youtube.com/vi/ebSAb-ERqAM/maxresdefault.jpg)](https://www.youtube.com/watch?v=ebSAb-ERqAM)
+
+
 #update the Kubernetes context
 aws eks update-kubeconfig --name my-eks-cluster --region us-west-2
 
