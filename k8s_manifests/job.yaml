@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: example-job
+spec:
+  template:
+    metadata:
+      name: example-pod
+    spec:
+      containers:
+      - name: job-container
+        image: your-image:tag
+        command: ["echo", "Hello, Kubernetes Job!"]
+      restartPolicy: Never

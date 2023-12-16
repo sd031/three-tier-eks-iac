@@ -2,39 +2,26 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: mainlb
-  namespace: workshop
+  name: monitoringlb
+  namespace: prometheus
   annotations:
     alb.ingress.kubernetes.io/group.name: demo-lb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     #Uncommnt below to enable https, generate certificate from AWS ACM
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
+    alb.ingress.kubernetes.io/ssl-redirect: '443'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-west-2:120717539064:certificate/befc6ed9-44ae-41a1-ba96-0d562a369f64
 spec:
   ingressClassName: alb
   rules:
-    - host: app.sandipdas.in
+    - host: monitor.sandipdas.in
       http:
         paths:
-          - path: /api
-            pathType: Prefix
-            backend:
-              service:
-                name: api
-                port:
-                  number: 8080
-          - path: /v2/api
-            pathType: Prefix
-            backend:
-              service:
-                name: apiv2
-                port:
-                  number: 8080
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: frontend
+                name: prometheus-grafana
                 port:
-                  number: 3000
+                  number: 80
