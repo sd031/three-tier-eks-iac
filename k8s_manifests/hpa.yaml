@@ -3,7 +3,7 @@ apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: api
-  namespace: shepherd
+  namespace: workshop
 spec:
   minReplicas: 2
   maxReplicas: 10
