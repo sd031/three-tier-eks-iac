@@ -5,16 +5,15 @@ metadata:
   name: mainlb
   namespace: workshop
   annotations:
-    alb.ingress.kubernetes.io/group.name: demo-lb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     #Uncommnt below to enable https, generate certificate from AWS ACM
-    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-west-2:120717539064:certificate/befc6ed9-44ae-41a1-ba96-0d562a369f64
+#    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
+#    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-west-2:911167885708:certificate/fc84e786-ad42-4845-a638-f63560249bc1
 spec:
   ingressClassName: alb
   rules:
-    - host: app.sandipdas.in
+    - host: app.ankita-project.click
       http:
         paths:
           - path: /api
