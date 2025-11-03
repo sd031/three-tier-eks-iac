@@ -5,7 +5,7 @@ variable "cluster_name" {
 
 variable "cluster_version" {
   type = number
-  default = 1.25
+  default = 1.29
 }
 
 variable "region" {
@@ -29,7 +29,7 @@ variable "addons" {
   default = [
     {
       name    = "kube-proxy"
-      version = "v1.25.6-eksbuild.1"
+      version = "v1.29.6-eksbuild.1"
     },
     {
       name    = "vpc-cni"

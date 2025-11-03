@@ -10,7 +10,7 @@ resource "time_sleep" "wait_for_kubernetes" {
 resource "kubernetes_namespace" "kube-namespace" {
   depends_on = [time_sleep.wait_for_kubernetes]
   metadata {
-    
+
     name = "prometheus"
   }
 }
@@ -27,7 +27,7 @@ resource "helm_release" "prometheus" {
     file("values.yaml")
   ]
   timeout = 2000
-  
+
 
 set {
     name  = "podSecurityPolicy.enabled"

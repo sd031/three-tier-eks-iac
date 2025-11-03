@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "sandip-demo-tfstate-bucket"
+    bucket = "ankita-demo-tfstate-bucket-1"
     key    = "eks/terraform.tfstate"
     region = "us-west-2"
   }

@@ -26,7 +26,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -97,7 +97,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -156,7 +156,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -215,7 +215,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -274,7 +274,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -326,7 +326,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -378,7 +378,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -423,7 +423,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -468,7 +468,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -513,7 +513,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -897,7 +897,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -968,7 +968,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1034,7 +1034,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1100,7 +1100,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1151,7 +1151,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1195,7 +1195,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1262,7 +1262,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1307,7 +1307,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1345,7 +1345,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1536,7 +1536,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1588,7 +1588,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1640,7 +1640,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1692,7 +1692,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1751,7 +1751,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1803,7 +1803,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1862,7 +1862,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1921,7 +1921,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -1973,7 +1973,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2025,7 +2025,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2091,7 +2091,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2143,7 +2143,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2209,7 +2209,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2275,7 +2275,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2341,7 +2341,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2407,7 +2407,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2473,7 +2473,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2539,7 +2539,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2605,7 +2605,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2671,7 +2671,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2737,7 +2737,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -2803,7 +2803,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3453,7 +3453,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3505,7 +3505,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3557,7 +3557,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3609,7 +3609,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3661,7 +3661,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3706,7 +3706,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3751,7 +3751,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3803,7 +3803,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3855,7 +3855,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3907,7 +3907,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3945,7 +3945,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -3990,7 +3990,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -4118,7 +4118,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -4215,7 +4215,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -4253,7 +4253,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -4737,7 +4737,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6190,7 +6190,7 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.14-eksbuild.2",
+                    "addonVersion": "v1.29.14-eksbuild.2",
                     "architecture": [
                         "amd64",
                         "arm64"
@@ -6218,7 +6218,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6228,7 +6228,7 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.11-eksbuild.2",
+                    "addonVersion": "v1.29.11-eksbuild.2",
                     "architecture": [
                         "amd64",
                         "arm64"
@@ -6256,7 +6256,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6266,7 +6266,7 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.11-eksbuild.1",
+                    "addonVersion": "v1.29.11-eksbuild.1",
                     "architecture": [
                         "amd64",
                         "arm64"
@@ -6280,7 +6280,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6290,7 +6290,7 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.9-eksbuild.1",
+                    "addonVersion": "v1.29.9-eksbuild.1",
                     "architecture": [
                         "amd64",
                         "arm64"
@@ -6304,7 +6304,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6314,7 +6314,7 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.6-eksbuild.2",
+                    "addonVersion": "v1.29.6-eksbuild.2",
                     "architecture": [
                         "amd64",
                         "arm64"
@@ -6335,7 +6335,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6345,14 +6345,14 @@
                     "requiresConfiguration": false
                 },
                 {
-                    "addonVersion": "v1.25.6-eksbuild.1",
+                    "addonVersion": "v1.29.6-eksbuild.1",
                     "architecture": [
                         "amd64",
                         "arm64"
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6376,7 +6376,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6407,7 +6407,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6438,7 +6438,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6469,7 +6469,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6493,7 +6493,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6534,7 +6534,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6565,7 +6565,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6596,7 +6596,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6627,7 +6627,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -6658,7 +6658,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7423,7 +7423,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7475,7 +7475,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7527,7 +7527,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7683,7 +7683,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7721,7 +7721,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7759,7 +7759,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7797,7 +7797,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7828,7 +7828,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7859,7 +7859,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7904,7 +7904,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7949,7 +7949,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -7994,7 +7994,7 @@
                             "defaultVersion": false
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -8032,7 +8032,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -8111,7 +8111,7 @@
                     ],
                     "compatibilities": [
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
@@ -8306,7 +8306,7 @@
                             "defaultVersion": true
                         },
                         {
-                            "clusterVersion": "1.25",
+                            "clusterVersion": "1.29",
                             "platformVersions": [
                                 "*"
                             ],
